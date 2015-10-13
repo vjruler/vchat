@@ -1,0 +1,39 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+
+<ion-view view-title="{{chat.name}}">
+ <ion-content>
+
+    <ion-list>
+
+    
+ <ion-item class="" ng-repeat="history in historys | orderBy:'createdAt':true" type="item-text-wrap">
+                <h4>{{history.name}} </h4>
+                <span am-time-ago="chat.createdAt" class="item-note">{{history.time}}
+                </span>
+                <p>{{history.message}}</p>
+                <ion-option-button class="button-assertive" ng-click="remove(history)">
+                    Delete
+                </ion-option-button>
+            </ion-item>
+
+<ion-item class="item item-input-inset">
+                <label class="item-input-wrapper">
+                    <input type="text" ng-model="textMessage" placeholder="Type in your message...">
+                </label>
+                <button ng-click="sendMessage(textMessage)" class="button button-small button-balanced">
+                    Send
+                </button>
+            </ion-item>
+
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+
+
+

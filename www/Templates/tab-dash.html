@@ -1,0 +1,21 @@
+<ion-view view-title="">
+
+    <div class="list card Dashboard centered">
+      <div class="item item-divider"><center>Sign In</center></div>
+      <div class="item item-body" ng-switch on="loginData">
+        <center>
+
+		<p class="error">{{msg}}</p>
+          <input type="text" id="email" placeholder="Email Address" value="" ng-model="email"><br>
+	  <input type="password" id="password" placeholder="Password" value=""  ng-model="password"><br>
+	  <button id="submit" value="Sign In" ng-click='signin()' >Sign In</button>
+
+        </center>
+      </div>
+    </div>
+    
+
+    </div>
+  
+</ion-view>
+

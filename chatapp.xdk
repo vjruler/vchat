@@ -1,0 +1,419 @@
+{
+  "project": {
+    "projectSettingsVersion": "2.0.0",
+    "creationData": {
+      "type": "Import",
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "",
+      "projectGuid": "ec0b6bf2-8fca-431d-963a-aef80393b441",
+      "lastModifiedDate": 1444415572168,
+      "creationDate": 1444403576875
+    },
+    "sourceDirectory": "www",
+    "cordovaPluginsDirectory": "plugins",
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "testDirectory": "test",
+    "startFile": "index.html",
+    "projectTags": [],
+    "projectFiles": {},
+    "projectDirectories": {
+      "xdk": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      }
+    },
+    "libraries": [],
+    "cordovaPlugins": [
+      {
+        "id": "com.ionic.keyboard",
+        "name": "Keyboard",
+        "version": "1.0.4",
+        "originType": "cordova.io",
+        "origin": "com.ionic.keyboard",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/com.ionic.keyboard",
+        "selectedState": "Included",
+        "checksum": "3cf42de2",
+        "dependsOn": [],
+        "topLevel": true,
+        "permissions": {},
+        "description": "Ionic Keyboard Plugin",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      },
+      {
+        "id": "cordova-plugin-console",
+        "name": "Console",
+        "version": "1.0.1",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-console",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-console",
+        "selectedState": "Included",
+        "checksum": "8fb6a4ad",
+        "dependsOn": [],
+        "topLevel": true,
+        "permissions": {},
+        "description": "Cordova Console Plugin",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      },
+      {
+        "id": "org.apache.cordova.device",
+        "name": "Device",
+        "version": "0.2.13",
+        "originType": "cordova.io",
+        "origin": "org.apache.cordova.device",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-device",
+        "selectedState": "Included",
+        "checksum": "87180a02",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.3.0",
+        "permissions": {},
+        "description": "Cordova Device Plugin",
+        "data": {},
+        "dependedBy": []
+      },
+      {
+        "id": "org.apache.cordova.splashscreen",
+        "name": "Splashscreen",
+        "version": "0.3.5",
+        "originType": "cordova.io",
+        "origin": "org.apache.cordova.splashscreen",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-splashscreen",
+        "selectedState": "Included",
+        "checksum": "ae76b446",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.3.0",
+        "permissions": {},
+        "description": "Cordova Splashscreen Plugin",
+        "data": {},
+        "dependedBy": []
+      },
+      {
+        "id": "cordova-plugin-statusbar",
+        "name": "StatusBar",
+        "version": "1.0.0",
+        "originType": "local",
+        "origin": ".\\plugins\\cordova-plugin-statusbar",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-statusbar",
+        "selectedState": "Included",
+        "checksum": "b4e7aac6",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "permissions": {},
+        "description": "Cordova StatusBar Plugin",
+        "data": {},
+        "dependedBy": []
+      },
+      {
+        "id": "cordova-plugin-whitelist",
+        "name": "Whitelist",
+        "version": "1.0.0",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-whitelist",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-whitelist",
+        "selectedState": "Included",
+        "checksum": "b01e1e86",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "permissions": {},
+        "description": "Cordova Network Whitelist Plugin",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      },
+      {
+        "id": "cordova-sqlite-storage",
+        "name": "Cordova sqlite storage plugin",
+        "version": "0.7.11-dev",
+        "originType": "repo",
+        "origin": "https://github.com/litehelpers/Cordova-sqlite-storage.git",
+        "gitref": "",
+        "subdir": ".",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-sqlite-storage",
+        "selectedState": "Included",
+        "checksum": "7ee72b7d",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.3.0",
+        "author": "litehelpers (various)",
+        "permissions": {},
+        "description": "Native interface to SQLite for PhoneGap/Cordova. Allows you to use more storage and provides more flexibility than the standard Web SQL database (window.openDatabase).",
+        "data": {},
+        "dependedBy": []
+      },
+      {
+        "version": "1.0.1",
+        "sourceLocation": "",
+        "selectedState": "Auto",
+        "name": "Device",
+        "originType": "cordova.io",
+        "id": "cordova-plugin-device",
+        "origin": "cordova-plugin-device",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": []
+      },
+      {
+        "version": "2.1.0",
+        "sourceLocation": "",
+        "selectedState": "Auto",
+        "name": "Splashscreen",
+        "originType": "cordova.io",
+        "id": "cordova-plugin-splashscreen",
+        "origin": "cordova-plugin-splashscreen",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": []
+      }
+    ],
+    "serviceMethods": [],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
+        },
+        "isActive_": true,
+        "appName_": "chatapp",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "14",
+        "cordovaCLIVersion_": "5.1.1"
+      },
+      "Android-Crosswalk": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android-Crosswalk",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
+        },
+        "isActive_": true,
+        "appName_": "chatapp",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "15",
+        "cordovaCLIVersion_": "5.1.1"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-target": "6",
+          "ios-configuration": "adhoc"
+        },
+        "isActive_": true,
+        "appName_": "chatapp",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "cordovaCLIVersion_": "5.1.1",
+        "iosProvs_": []
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "chatapp",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "5.1.1"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "chatapp",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+        "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "chatapp",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "chatapp",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Facebook": {
+        "platform_": "facebook",
+        "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "chatapp",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "WP81": {
+        "platform_": "wp81",
+        "runtime_": "Cordova 3.x",
+        "name_": "WP81",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "chatapp",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "5.1.1"
+      }
+    }
+  }
+}

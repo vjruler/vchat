@@ -1,0 +1,30 @@
+/* Empty. Add your own CSS if you like */
+.centered {
+  position: relative;	
+  margin: 0px auto;
+  top:40%;
+  background-color: #f8f8f8;
+    border-color: #b2b2b2;
+
+    color: #444;
+    width:300px;
+    border:0.5px ;
+   
+}
+.error{color:red!important;}
+.input{border-bottom:1px #b2b2b2 solid!important;text-align: center; }
+button{background-color:green;}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
